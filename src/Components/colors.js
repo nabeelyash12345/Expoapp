@@ -1,0 +1,47 @@
+const schemes = {
+  'dark': {
+    scheme: 'dark',
+    bgNavBar: '#141414',
+    bgDark: '#101010',
+    bg: '#141414',
+    bgLight: '#161616',
+    bgLighter:  '#181818',
+    topBarBG: '#141414',
+    accent: '#ffdc02',
+    link: '#ffdc02',
+    highLight: '#ffdc02',
+    text: '#ffffff',
+    topBar: 'rgba(0,0,0,0.8)',
+    topBarTextAccent: '#ffdc02',
+    topBarText: '#ffffff',
+    trailerButtonText: '#ffffff',
+    playButtonBG: '#ffffff',
+    playButtonText: '#000000'
+  },
+  'light': {
+    scheme: 'light',
+    bgNavBar: '#cccccc',
+    bgDark: '#fcfcfc',
+    bg: '#fcfcfc',
+    bgLight: '#fcfcfc',
+    bgLighter: '#fdfdfd',
+    // bgDark: '#cccccc',
+    // bg: '#cccccc',
+    // bgLight: '#cccccc',
+    // bgLighter: '#cccccc',
+    topBarBG: '#ff7100',
+    accent: '#ff7100',
+    link: '#ff7100',
+    highLight: '#ff7100',
+    text: '#000000',
+    topBar: '#ff7100',
+    topBarTextAccent: '#ffffff',
+    topBarText: '#ffffff',
+    trailerButtonText: '#ff7100',
+    playButtonBG: '#ff7100',
+    playButtonText: '#ffffff',
+    disabled: '#000000',
+  }
+} 
+
+export default schemes;
